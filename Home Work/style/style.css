@@ -1,0 +1,55 @@
+p{font-size: 20px;
+margin: 40px;
+margin-top: 0px;
+height: 40px;}
+
+h2{font-size: 30px;
+margin: 20px;
+margin-bottom: 0px;}
+
+body{background-image: url(../img/rock.jpg);
+background-repeat: no-repeat;}
+
+h1{margin: 50px 100px;
+border: 3px solid black ;
+padding: 20px;
+width: 150px; height: 35;
+color: rgb(151, 28, 6);
+background-color: darkcyan;}
+
+.Myname h2{color: rgb(16, 84, 112);}
+
+.Myname p{height: 40px;}
+
+.Myname{ background-color: cadetblue;}
+
+.Myhobby h2{color: darkorange;}
+
+.Myhobby p{height: 80px;}
+
+.Myhobby{background-color: green;}
+
+.Mywork h2{color: darkkhaki;}
+
+.Mywork{background-color: darkgreen;}
+
+.Myanimals h2{color: rgb(159, 82, 96);}
+
+.Myanimals p{height: 80px;}
+
+.Myanimals{background-color: mediumseagreen;}
+
+.Mydream h2{color: dodgerblue;}
+
+.Mydream{background-color: rgb(240, 206, 119);}
+
+.social{
+    
+    padding: 60px;
+    text-align: center;}
+
+.social a {
+    text-decoration: none;}
+
+.social_img{
+    width: 50px;}
