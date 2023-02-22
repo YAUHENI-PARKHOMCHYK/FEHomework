@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.social{
+margin: 39px 186px;
+display: flex;
+gap: 65px;
+}
+.social img{
+Width: 24px;
+Height: 24px;   
+}
+
+.logo{
+width: 74px;
+height: 74px;
+margin: 6px 0 0 152px;
+}
+#about_menu{
+width: 1519px;
+height: 700px;
+background-color: #4FBFA5;;
+}
+.menu{
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+.menu a{
+margin: 30px 0;
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.contact a{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #FFFFFF;
+width: 192px;
+height: 42px;
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.about{
+display: flex;
+gap: 55px;
+}
+.text{
+margin:136px 0 0 150px ;
+display: flex;
+text-align: left;
+flex-direction: column;
+justify-content: start;
+gap: 20px;
+}
+.text h2{
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 48px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.text p{
+padding: 26px 0;
+width: 416px;
+height: 84px;
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.about a{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 40px 0;
+width: 160px;
+height: 41px;
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #00868A;
+}
+.items h2{
+margin: 146px 0 0;
+text-align: center;
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 48px;
+line-height: 150%;
+text-align: center;
+color: #00868A;
+
+}
+.photo{
+margin: 30px 0 0;
+
+}
+.photos{
+margin: 60px 0 0;
+gap: 24px;
+display: flex;
+justify-content: center;  
+}
+.photos img{
+object-fit: none;
+width: 306px;
+height: 230px;   
+}
+.photos p{
+font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 21px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.flowers{
+width: 306px;
+height: 343px;
+background-color: #00868A;
+}
+.flowers p{
+float: left;
+margin: 20px 0 25px 30px;
+width: 181px;
+height: 64px;
+}
+.arrow{
+margin: 35px 0 0 210px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid white;
+width: 60px;
+height: 40px;
+color: #FFFFFF; 
+}
+.arrow img{
+object-fit: contain;
+width: 80px;
+height: 10px;
+}
+.professional{
+width: 306px;
+height: 343px;
+background-color: #00868A;   
+}
+.professional p{
+float: left;
+margin: 20px 0 25px 30px;
+width: 181px;
+height: 64px;   
+}
+.fun{
+width: 306px;
+height: 343px;
+background-color: #00868A;  
+}
+.fun p{
+float: left;
+margin: 20px 0 25px 30px;
+width: 181px;
+height: 64px;
+}
+.projectors{
+width: 306px;
+height: 343px;
+background-color: #00868A;
+}
+.projectors p{
+float: left;
+margin: 20px 0 25px 30px;
+width: 181px;
+height: 64px;
+}
+
+footer{
+margin: 83px 0 0 0 ;
+display: flex;
+align-items: center;
+justify-content: right;
+}
+.professional{
+position: relative;
+}
+.fun{
+position: relative;
+}
+.projectors{
+position: relative;
+}
+
+.flowers{
+position: relative;
+}
+.flowers:hover::before{
+content: "";
+position: absolute;
+background-color: rgba(240, 226, 21, 0.5);
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+.professional:hover::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(240, 226, 21, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.fun:hover::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(240, 226, 21, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.projectors:hover::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(240, 226, 21, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
