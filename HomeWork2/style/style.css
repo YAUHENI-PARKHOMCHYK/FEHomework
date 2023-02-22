@@ -1,0 +1,46 @@
+/* Ul{ 
+    /* list-style-type: none;
+    list-style-type: disk;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: decimal; */
+    /* list-style: upper-roman;
+
+}
+li{color: coral;} */ 
+p{text-align: center;margin-bottom: 0px;
+font-size: 50px;}
+
+tr{font-size: 20px; }
+
+table, th, td {border: 1px solid;}
+
+td{padding: 10px 20px 10px 20px;}
+
+table{border-collapse: collapse;}
+table{text-align: center;}
+
+.odd{background-color: cadetblue;}
+.even{background-color: blueviolet;}
+
+tr:nth-child(even){background-color: rgb(130, 42, 10); color: rgb(176, 229, 28);}
+
+tr:nth-child(odd){background-color: rgb(54, 51, 204); color: rgb(34, 8, 8);}
+
+tr:nth-child(3){color: rgb(7, 35, 46);}
+
+tr:first-child{background-color: darkkhaki}
+
+tr:last-child{background-color: rgb(10, 74, 25);}
+
+tr:nth-child(3){background-color: darkcyan;}
+
+tr:nth-child(4){background-color: rgb(76, 38, 119);}
+
+body{background-color: rgb(109, 133, 112);}
+
+table {margin: 0 auto;}
+.img{
+    width: 60px;
+    height: 60px;
+}
