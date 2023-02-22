@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+
+height: 1700px;
+position: relative;
+background: linear-gradient(240.51deg, rgba(52, 138, 199, 0.93) -30%, rgba(7, 32, 44, 0.85) 70%);
+}
+
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+
+.header_menu {
+    margin: 0 55px 0 0;
+    display: flex;
+    gap: 55px;
+}
+.header_menu a{
+    
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 51px;
+    z-index: 1;
+    
+}
+ 
+.logo a{
+margin: 1px 29px;
+font-weight: 600;
+font-size: 64px;
+line-height: 92px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+} 
+.logo{
+    z-index: 1;
+}
+.img{
+margin: 207px 0 0 700px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+img{
+width: 780px;
+height: 794px;
+z-index: 1;
+}
+
+
+.ellipse2{
+position: absolute; 
+width: 1415.03px;
+height: 1415.03px;
+left: -678.02px;
+top: -2.02px;
+display: flex;
+background: linear-gradient(240.51deg, #356381 -30%, #2d4857 70%);
+clip-path: ellipse(closest-side farthest-side);
+}
+.ellipse1{
+    position: absolute;
+    shape-outside: ellipse(40% 50% at left);
+    width: 1735px;
+    height: 1735px;
+    left: -838px;
+    top: -162px;
+    clip-path: ellipse(closest-side farthest-side);
+    background: #44a50c;
+    } 
+    
+.about_shoes{
+position: absolute;
+width: 614px;
+height: 525px;
+left: 90px;
+top: 113px;
+font-weight: 600;
+font-size: 150px;
+line-height: 101%;
+color: #FFFFFF;
+z-index: 1;
+}
+.ultimate{
+position: absolute;
+width: 568px;
+height: 74px;
+left: 90px;
+top: 564px;
+font-weight: 500;
+font-size: 32px;
+line-height: 101%;
+color: #FFFFFF;
+}
+.about_buy{
+position: absolute;
+width: 127px;
+height: 32px;
+left: 85px;
+top: 700px;
+width: 200px;
+height: 50px;
+border-radius: 50px;
+background-color: #FFFFFF;
+}
+.buy_now{
+position: absolute;
+font-weight: 500;
+font-size: 32px;
+line-height: 101%;
+bottom: 10px;
+left: 39px;
+color: black;
+}
+.support{
+position: absolute;
+width: 292px;
+height: 74px;
+left: 90px;
+top: 926px;
+}
+.support a{
+font-weight: 500;
+font-size: 32px;
+line-height: 101%;
+color: rgba(255, 255, 255, 0.5);
+
+}
